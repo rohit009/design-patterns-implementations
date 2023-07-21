@@ -10,12 +10,17 @@ enum UserSubscriptionServiceError: Error {
     case someError
 }
 
-/*
- Singleton design pattern implementation.
-
- Reference:
- [YT - iCode] Singleton - Good or Bad? https://youtu.be/x6gbDWFNin4
- [refactoring.guru] Singleton in Swift: https://refactoring.guru/design-patterns/singleton/
+/**
+ * Singleton design pattern implementation.
+ *
+ * "You create simple singletons using a static type property, which is
+ * guaranteed to be lazily initialized only once, even when accessed
+ * across multiple threads simultaneously"
+ * https://developer.apple.com/documentation/swift/managing-a-shared-resource-using-a-singleton
+ *
+ * Other reference:
+ * [YT - iCode] Singleton - Good or Bad? https://youtu.be/x6gbDWFNin4
+ * [refactoring.guru] Singleton in Swift: https://refactoring.guru/design-patterns/singleton/
  */
 class UserSubscriptionServiceImpl: UserSubscriptionService {
     
