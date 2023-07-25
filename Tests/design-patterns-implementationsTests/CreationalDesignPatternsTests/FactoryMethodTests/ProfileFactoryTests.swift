@@ -1,10 +1,5 @@
-//
 //  ProfileFactoryTests.swift
-//  
-//
 //  Created by Rohit Patil on 25/07/23.
-//
-
 import XCTest
 @testable import design_patterns_implementations
 
