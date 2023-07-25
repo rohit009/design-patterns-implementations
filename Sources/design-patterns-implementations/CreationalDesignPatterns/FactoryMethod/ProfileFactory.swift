@@ -37,3 +37,9 @@ class PaidTierAttendeeFactory: ProfileFactory {
         return PaidTierAttendeeProfile()
     }
 }
+
+class HostFactory: ProfileFactory {
+    func createProfile() -> Profile {
+        return HostProfile()
+    }
+}

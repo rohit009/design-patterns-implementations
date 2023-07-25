@@ -26,3 +26,12 @@ class PaidTierAttendeeProfile: Profile {
     }
     
 }
+
+class HostProfile: Profile {
+    var id: String = "Host_103"
+    
+    func profileInfo(addOn info: String) -> String {
+        return "Host profile info: " + info
+    }
+    
+}

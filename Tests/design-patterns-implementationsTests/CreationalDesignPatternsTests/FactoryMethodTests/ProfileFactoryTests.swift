@@ -33,5 +33,14 @@ final class ProfileFactoryTests: XCTestCase {
         
         XCTAssertEqual(info, "Paid tier profile info: Alex")
     }
+    
+    func testHostFactoryUsage() {
+        let info = profileValidation.showProfileInfo(
+            addOn: "Santos",
+            profileFactory: HostFactory()
+        )
+        
+        XCTAssertEqual(info, "Host profile info: Santos")
+    }
 
 }
