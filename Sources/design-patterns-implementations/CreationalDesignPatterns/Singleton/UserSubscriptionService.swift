@@ -24,8 +24,15 @@ enum UserSubscriptionServiceError: Error {
  */
 class UserSubscriptionServiceImpl: UserSubscriptionService {
     
-    public static let shared: UserSubscriptionService = UserSubscriptionServiceImpl()
+    public static let shared: UserSubscriptionService = {
+        let service = UserSubscriptionServiceImpl()
+        service.userID = UUID()
+
+        return service
+    }()
     
+    private var userID: UUID?
+
     private init() { }
     
     public func fetchSubscriptionState<Response: Decodable>() async -> (Response?, Error?) {
