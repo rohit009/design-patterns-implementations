@@ -8,6 +8,3 @@ circle.
 Your task is to implement a prototype-based cloning system using the Prototype design pattern to
 create new shapes based on existing ones efficiently. The duplicate shape should be shown 10
 points to the left.
-
-#### Assumptions:
-- 
