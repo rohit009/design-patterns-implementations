@@ -4,7 +4,7 @@ Includes implementation of design patterns in swift.
 These are basically code examples with near to real-life problems to demonstrate usage of patterns for learning purpose.
 
 ## Contents
-So far following design patterns are implementated:
+So far following design patterns are implemented:
 - Creational design patterns
 	- Factory method
 	- Abstract factory
