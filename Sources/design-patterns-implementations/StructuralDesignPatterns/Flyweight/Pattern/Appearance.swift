@@ -3,8 +3,8 @@
 import Foundation
 import UIKit
 
-/// Flyweight design pattern implementation. This is the intrinsic state that is repeated in
-/// between several objects.
+/// Flyweight design pattern implementation. This is the intrinsic state or the "Flyweight" object
+/// that is repeated in between several objects.
 struct Appearance: Equatable {
     // A property to verify no. of objects created.
     static var initializationCount = 0
