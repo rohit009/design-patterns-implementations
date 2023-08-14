@@ -21,7 +21,7 @@ class AppearanceFactory {
     }
 }
 
-extension AppearanceFactory {
+private extension AppearanceFactory {
     static func keyString(from color: UIColor, font: UIFont) -> String {
         keyString(from: color) + keyString(from: font)
     }
