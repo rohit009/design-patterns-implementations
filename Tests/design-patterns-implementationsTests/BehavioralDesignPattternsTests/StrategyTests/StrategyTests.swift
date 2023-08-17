@@ -3,6 +3,7 @@
 import XCTest
 @testable import design_patterns_implementations
 
+/// These tests represent the app code that uses the Strategy design pattern to process payments.
 final class StrategyTests: XCTestCase {
 
     var fridgeProduct: Product!
