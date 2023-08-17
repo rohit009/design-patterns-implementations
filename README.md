@@ -16,6 +16,8 @@ So far following design patterns are implemented:
     - Decorator   
     - Facade
     - Flyweight
+- Behavioral Design Patterns
+    - Strategy
 	
 These can also be found in the similar folder structure in [main](https://github.com/rohit009/design-patterns-implementations/tree/main/Sources/design-patterns-implementations) branch. [develop](https://github.com/rohit009/design-patterns-implementations/tree/develop/Sources/design-patterns-implementations) branch has in progress implementations.
 
